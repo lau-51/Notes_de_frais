@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --color-bg: #12110e;
+  --color-surface: #1e1c18;
+  --color-surface-2: #2a2722;
+  --color-fg: #f4f0e8;
+  --color-muted: #c8c0b4;
+  --color-subtle: #9c9488;
+  --color-border: #453f37;
+  --color-accent: #e4ded4;
+  --color-accent-fg: #1a1814;
+  --color-ok: #9cbea6;
+  --color-warn: #d1b48a;
+  --color-danger: #e0a3a3;
+  --color-info: #9eb4be;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.75rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    overflow-x: clip;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 560;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-info);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-info);
+    color: var(--color-bg);
+  }
+}
+
+.scroll-x {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+.app-main {
+  padding-bottom: calc(6rem + env(safe-area-inset-bottom));
+}
+
+.app-nav {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .press:active {
+    transform: scale(0.98);
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+}
