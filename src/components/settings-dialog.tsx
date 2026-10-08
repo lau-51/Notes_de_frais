@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { toast } from "sonner";
 import { Button, Field, TextInput, Toggle } from "@/components/ui";
+import { InstallSettings } from "@/components/install-card";
 import { FUELS, VEHICLES } from "@/lib/expenses/categories";
 import { useExpenses } from "@/lib/expenses/store";
 import type { FuelKind, VehicleKind } from "@/lib/expenses/types";
@@ -106,6 +107,7 @@ export function SettingsDialog({ onClose }: { onClose: () => void }) {
           <Button className="w-full" disabled={busy} onClick={() => void save()}>
             Enregistrer
           </Button>
+          <InstallSettings />
           {hasExamples ? (
             <Button
               variant="secondary"

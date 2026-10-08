@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PeriodBar } from "@/components/period-bar";
+import { InstallCard } from "@/components/install-card";
 import { Button } from "@/components/ui";
 import { eur } from "@/lib/expenses/format";
 import { summarize } from "@/lib/expenses/fiscal";
@@ -36,6 +37,7 @@ function Home() {
         <h1 className="text-2xl leading-tight tracking-tight">Tableau</h1>
         <p className="mt-1 text-sm text-muted">Dépenses professionnelles de la période, par poste et au total.</p>
       </header>
+      <InstallCard />
       <PeriodBar />
       {hasExamples ? (
         <div className="rounded-xl border border-border bg-surface p-4">

@@ -1,6 +1,6 @@
-import { A as vehicleLabel, D as categoryMeta, O as fuelLabel, d as formatDate, k as payLabel, u as eur } from "./router-Dw1w5zm1.mjs";
+import { C as eur, E as fuelLabel, L as vehicleLabel, M as payLabel, _ as categoryMeta, w as formatDate } from "./store-BWE3fr9t.mjs";
 import { n as StandardFonts, r as rgb, t as PDFDocument } from "../_libs/pdf-lib.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/share-CWPyrBsj.js
+//#region node_modules/.nitro/vite/services/ssr/assets/share-CO6S2Wg6.js
 var PAGE_W = 595.28;
 var PAGE_H = 841.89;
 var MARGIN = 40;

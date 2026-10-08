@@ -1,9 +1,10 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { X as require_react, w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { M as Button, a as getPeriod, i as useExpenses, o as inPeriod, s as shiftAnchor, u as eur } from "./router-Dw1w5zm1.mjs";
-import { t as PeriodBar } from "./period-bar-DS4hzPAj.mjs";
-import { i as summarize } from "./fiscal-D0cC_WVU.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-7RR0vEXy.js
+import { X as require_react, Y as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { C as eur, D as getPeriod, I as useExpenses, N as shiftAnchor, k as inPeriod, n as Button } from "./store-BWE3fr9t.mjs";
+import { t as PeriodBar } from "./period-bar-DkOqrCca.mjs";
+import { i as summarize } from "./fiscal-C07AQt-r.mjs";
+import { r as InstallCard } from "./router-C-jncObW.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CSpTB5RA.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
 				className: "mt-1 text-sm text-muted",
 				children: "Dépenses professionnelles de la période, par poste et au total."
 			})] }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(InstallCard, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PeriodBar, {}),
 			hasExamples ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "rounded-xl border border-border bg-surface p-4",

@@ -1,5 +1,5 @@
-import { A as vehicleLabel, D as categoryMeta, O as fuelLabel } from "./router-Dw1w5zm1.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/fiscal-D0cC_WVU.js
+import { E as fuelLabel, L as vehicleLabel, _ as categoryMeta } from "./store-BWE3fr9t.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/fiscal-C07AQt-r.js
 function splitTtc(ttcCents, ratePercent) {
 	if (ratePercent <= 0 || ttcCents <= 0) return {
 		ht: Math.max(0, ttcCents),

@@ -13,6 +13,7 @@ export const Route = createRootRoute({
       { title: "Frais de domaine" },
       { name: "description", content: "Notes de frais pour une SARL viticole : justificatifs, TVA et export comptable." },
       { name: "theme-color", content: "#12110e" },
+      { name: "mobile-web-app-capable", content: "yes" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -23,6 +24,7 @@ export const Route = createRootRoute({
       },
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       { rel: "stylesheet", href: appCss },
+      { rel: "manifest", href: "/manifest.webmanifest" },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
     ],

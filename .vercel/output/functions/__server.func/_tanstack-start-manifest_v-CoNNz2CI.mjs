@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-CGXnHZR0.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-CoNNz2CI.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/workspace/src/routes/__root.tsx",
@@ -11,7 +11,7 @@ var tsrStartManifest = () => ({ routes: {
 			"/notes_/$id"
 		],
 		preloads: [
-			"/assets/index-Bnrk4R2L.js",
+			"/assets/index-BhkpSa0I.js",
 			"/assets/rolldown-runtime-Dd_uD5pT.js",
 			"/assets/clsx-CyS8rNtL.js",
 			"/assets/jsx-runtime-DREnUpxT.js"
@@ -19,26 +19,26 @@ var tsrStartManifest = () => ({ routes: {
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-Bnrk4R2L.js"
+			src: "/assets/index-BhkpSa0I.js"
 		} }]
 	},
 	"/": {
 		filePath: "/workspace/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-ekkovb9M.js",
-			"/assets/period-bar-DT3nWp86.js",
-			"/assets/fiscal-CkjyzUqK.js"
+			"/assets/routes-BY-9-VDk.js",
+			"/assets/period-bar-C9xfyPbA.js",
+			"/assets/fiscal-Yoqrnlgg.js"
 		]
 	},
 	"/export": {
 		filePath: "/workspace/src/routes/export.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/export-BqA8yEfC.js",
-			"/assets/period-bar-DT3nWp86.js",
-			"/assets/share-CVHMBG58.js",
-			"/assets/fiscal-CkjyzUqK.js"
+			"/assets/export-CJdiXfQ3.js",
+			"/assets/period-bar-C9xfyPbA.js",
+			"/assets/share-CSt1VfGj.js",
+			"/assets/fiscal-Yoqrnlgg.js"
 		]
 	},
 	"/guide": {
@@ -49,17 +49,17 @@ var tsrStartManifest = () => ({ routes: {
 	"/notes": {
 		filePath: "/workspace/src/routes/notes.tsx",
 		children: void 0,
-		preloads: ["/assets/notes-BgTlSqcV.js", "/assets/expense-form-DVou0ux3.js"]
+		preloads: ["/assets/notes-DAKNED-3.js", "/assets/expense-form-DKEn11wW.js"]
 	},
 	"/scan": {
 		filePath: "/workspace/src/routes/scan.tsx",
 		children: void 0,
-		preloads: ["/assets/scan-Ck51RJO8.js", "/assets/expense-form-DVou0ux3.js"]
+		preloads: ["/assets/scan-D_vQi7nL.js", "/assets/expense-form-DKEn11wW.js"]
 	},
 	"/notes_/$id": {
 		filePath: "/workspace/src/routes/notes_.$id.tsx",
 		children: void 0,
-		preloads: ["/assets/notes_._id-CUlWlTy7.js", "/assets/expense-form-DVou0ux3.js"]
+		preloads: ["/assets/notes_._id-CfPvddPK.js", "/assets/expense-form-DKEn11wW.js"]
 	}
 } });
 //#endregion

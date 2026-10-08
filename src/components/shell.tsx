@@ -3,6 +3,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Camera, FolderOutput, LayoutDashboard, Scale, Settings, ScrollText } from "lucide-react";
 import { Toaster } from "sonner";
 import { SettingsDialog } from "@/components/settings-dialog";
+import { useRegisterPwa } from "@/lib/pwa";
 import { cn } from "@/lib/cn";
 import { useExpenses } from "@/lib/expenses/store";
 
@@ -17,6 +18,7 @@ export function Shell({ children }: { children: ReactNode }) {
   const { ready, error, settings } = useExpenses();
   const [open, setOpen] = useState(false);
   const path = useRouterState({ select: (state) => state.location.pathname });
+  useRegisterPwa();
 
   return (
     <div className="min-h-dvh bg-bg text-fg">
